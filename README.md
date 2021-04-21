@@ -101,7 +101,7 @@ print(df.to_string(index=False))
 Using Matplotlib, I plotted the results of the precipitation analysis:
 ```
 # Use Pandas Plotting with Matplotlib to plot the data
-df.plot()
+df.plot(rot=45)
 ```
 
 ![precipitation.png](https://github.com/kcharb7/Surfs_up/blob/main/Resources/precipitation.png)
